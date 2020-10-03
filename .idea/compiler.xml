@@ -9,6 +9,7 @@
         <module name="j2003_alex_finallyproject" />
         <module name="j2003_alex_eurekaserver2" />
         <module name="j2003_alex_eurekaserver1" />
+        <module name="j2003_alex_remoteconfigserver" />
       </profile>
     </annotationProcessing>
   </component>
