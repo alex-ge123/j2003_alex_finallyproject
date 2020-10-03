@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-server1
+  security:
+    user:
+      name: root
+      password: root
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://root:root@${eureka.instance.hostname}:8762/eureka/
+    fetch-registry: true
+    register-with-eureka: true

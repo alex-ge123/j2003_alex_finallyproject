@@ -8,9 +8,9 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 @SpringBootApplication
 @EnableEurekaServer
 @EnableWebSecurity
-public class J2003AlexEurekaserver1Application {
+public class J2003AlexEurekaserver2Application {
 
   public static void main(String[] args) {
-    SpringApplication.run(J2003AlexEurekaserver1Application.class, args);
+    SpringApplication.run(J2003AlexEurekaserver2Application.class, args);
   }
 }
