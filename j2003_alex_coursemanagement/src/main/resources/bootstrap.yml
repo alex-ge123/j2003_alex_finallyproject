@@ -14,11 +14,7 @@ eureka:
 
 
 
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.121.53.77:3306/education?serverTimezone=UTC
-    username: root
-    password: ROOT
+
   # 应用名称
   #spring.application.name=j2003_alex_coursemanagement
   # 数据库驱动：
