@@ -14,7 +14,7 @@ public class Subject {
     private  int sub_id;
     private String sub_miaoshu;
     private int deletestatus;
-  //  @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
     private Date livetime;
 
 }
