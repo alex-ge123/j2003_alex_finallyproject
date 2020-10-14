@@ -4,19 +4,31 @@ server:
 spring:
   application:
     name: remoteconfig-service
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:share
+#  profiles:
+#    active: native  #服务器资源来自本地
+
   cloud:
     config:
       server:
-        native:
-          git:
-          search-paths: remoteconfig-file  #在资源库的搜索路径
-          uri: https://github.com/alex-ge123/j2003_alex_finallyproject.git  #配置文件资源库
-
+        git:
+          uri: https://github.com/alex-ge123/j2003_alex_finallyproject.git #配置文件资源库
+          search-paths:  remoteconfig-file  #在资源库的搜索路径
+  rabbitmq:
+    host: localhost
+    virtual-host: /
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
     service-url:
-      defaultZone:  http://root:root@10.12.153.63:8761/eureka/, http://root:root@10.12.153.63:8762/eureka/
+      defaultZone:  http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/
 
 management:
   endpoints:

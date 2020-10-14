@@ -1,20 +1,9 @@
 spring:
-  application:
-    name: alex-prodcuer-coursemanagement
-  cloud:
-    config:
-      discovery:
-        service-id: remoteconfig-service   #也可以用注册地址
-      profile: coursemanagement
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/
-
-
-
-
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.121.53.77:3306/education?serverTimezone=UTC
+    username: root
+    password: ROOT
   # 应用名称
   #spring.application.name=j2003_alex_coursemanagement
   # 数据库驱动：
@@ -26,4 +15,8 @@ eureka:
   # 数据库用户名&密码：
   #spring.datasource.username=***
   #spring.datasource.password=***
-
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.qf.j2003.pojo
+server:
+  port: 10002
