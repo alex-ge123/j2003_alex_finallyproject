@@ -20,8 +20,6 @@ sub_id,sub_miaoshu,deletestatus,livetime
         from
         tb_subject
         where deletestatus  =#{deleteStatus}
-
-
     </select>
 
 

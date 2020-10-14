@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.121.53.77:3306/education?serverTimezone=UTC
+    url: jdbc:mysql://10.12.153.77:3306/education?serverTimezone=UTC
     username: root
     password: ROOT
   # 应用名称
@@ -19,4 +19,4 @@ mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.qf.j2003.pojo
 server:
-  port: 10002
+  port: 10001
