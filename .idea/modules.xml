@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/j2003_alex_finallyproject.iml" filepath="$PROJECT_DIR$/.idea/j2003_alex_finallyproject.iml" />
-=======
+      <module fileurl="file://$PROJECT_DIR$/j2003_alex_coursemanagement/j2003_alex_coursemanagement.iml" filepath="$PROJECT_DIR$/j2003_alex_coursemanagement/j2003_alex_coursemanagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/j2003_alex_eurekaserver1/j2003_alex_eurekaserver1.iml" filepath="$PROJECT_DIR$/j2003_alex_eurekaserver1/j2003_alex_eurekaserver1.iml" />
       <module fileurl="file://$PROJECT_DIR$/j2003_alex_eurekaserver2/j2003_alex_eurekaserver2.iml" filepath="$PROJECT_DIR$/j2003_alex_eurekaserver2/j2003_alex_eurekaserver2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/j2003_alex_finallyproject.iml" filepath="$PROJECT_DIR$/.idea/j2003_alex_finallyproject.iml" />
       <module fileurl="file://$PROJECT_DIR$/j2003_alex_remoteconfigserver/j2003_alex_remoteconfigserver.iml" filepath="$PROJECT_DIR$/j2003_alex_remoteconfigserver/j2003_alex_remoteconfigserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/j2003_publicDate/j2003_publicDate.iml" filepath="$PROJECT_DIR$/j2003_publicDate/j2003_publicDate.iml" />
->>>>>>> d26f52e30de2d9c61f5b305347abf43671e8929c
+      <module fileurl="file://$PROJECT_DIR$/j2003_zuul_server/j2003_zuul_server.iml" filepath="$PROJECT_DIR$/j2003_zuul_server/j2003_zuul_server.iml" />
     </modules>
   </component>
 </project>
