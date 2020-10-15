@@ -18,11 +18,11 @@ spring:
 #          uri: https://github.com/alex-ge123/j2003_alex_finallyproject.git #配置文件资源库
 #          search-paths:  remoteconfig-file  #在资源库的搜索路径
   rabbitmq:
-    host: 10.12.153.77
+    host: localhost
     virtual-host: /
     port: 5672
-    username: leen
-    password: 123456
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
