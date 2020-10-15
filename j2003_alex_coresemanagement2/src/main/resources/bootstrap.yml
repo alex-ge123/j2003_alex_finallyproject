@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: alex-prodcuer-coursemanagement2
   cloud:
     config:
       discovery:

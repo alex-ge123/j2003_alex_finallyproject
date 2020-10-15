@@ -18,6 +18,5 @@ zuul:
   routes:
     alex:
       path: /alex/**
-      serviceId: alex-prodcuer-coursemanagement,alex-prodcuer-coursemanagement2
-    ignored-services:
-
+      serviceId:
+    ignored-services: alex-prodcuer-coursemanagement,alex-prodcuer-coursemanagement2

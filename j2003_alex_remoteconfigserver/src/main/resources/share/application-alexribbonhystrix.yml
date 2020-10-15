@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: alex-ribbon-hystrix
+server:
+  port: 9093

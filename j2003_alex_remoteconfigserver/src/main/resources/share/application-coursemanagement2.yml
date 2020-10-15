@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: alex-prodcuer-coursemanagement
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://10.12.153.77:3306/education?serverTimezone=UTC
