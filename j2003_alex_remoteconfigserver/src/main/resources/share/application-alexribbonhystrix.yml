@@ -1,5 +1,5 @@
-spring:
-  application:
-    name: alex-ribbon-hystrix
+#spring:
+#  application:
+#    name: alex-ribbon-hystrix
 server:
-  port: 9093
+  port: 10002

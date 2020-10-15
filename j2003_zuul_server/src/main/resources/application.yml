@@ -18,5 +18,5 @@ zuul:
   routes:
     alex:
       path: /alex/**
-      serviceId:
+      serviceId: alex-ribbon-hystrix
     ignored-services: alex-prodcuer-coursemanagement,alex-prodcuer-coursemanagement2
