@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@CrossOrigin
+
 @RestController
 public class CourseController {
     private  int DELETESTATUS=1;
