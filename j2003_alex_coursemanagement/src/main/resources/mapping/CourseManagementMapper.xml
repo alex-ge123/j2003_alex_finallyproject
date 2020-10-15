@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.j2003.mapper.CourseManagementMapper">
+    <resultMap id="courseManagementMap" type="com.qf.j2003.pojo.CourseManagement">
+        <id property="s_id" column="s_id"/>
+        <result property="s_name" column="s_name"/>
+        <result property="s_yijifenlei" column="s_yijifenlei"/>
+        <result property="s_erjifenlei" column="s_erjifenlei"/>
+        <result property="s_imageurl" column="s_imageurl"/>
+        <result property="t_imageurl" column="t_imageurl"/>
+        <result property="t_name" column="t_name"/>
+        <result property="nianji" column="nianji"/>
+        <result property="s_price" column="s_price"/>
+        <result property="s_type" column="s_type"/>
+        <result property="s_showstatus" column="s_showstatus"/>
+        <result property="s_status" column="s_status"/>
+        <result property="sub_miaoshu" column="sub_miaoshu"/>
+        <result property="s_createtime" column="s_createtime"/>
+        <result property="s_updatetime" column="s_updatetime"/>
+    </resultMap>
+    <sql id="coursemanagement_colums">
+ s_id,
+ s_name,
+ s_yijifenlei,
+ s_erjifenlei,
+ s_imageurl,
+t_imageurl,
+ t_name,
+ nianji,
+ s_price,
+ s_type,
+ s_showstatus,
+ s_status,
+ sub_miaoshu,
+ s_createtime,
+ s_updatetime
+    </sql>
+    <select id="findAll" resultMap="courseManagementMap" parameterType="int">
+        select
+        <include refid="coursemanagement_colums"/>
+        from  tb_course  cour,
+        tb_teacher teac,
+        tb_nianji  ni,
+        tb_subject sub
+        WHERE cour.`deletestatus`=#{deleteStatus}
+        AND cour.`s_id`=sub.`sub_id`
+        AND cour.`s_id`=ni.`nianji_id`
+        AND cour.`s_id`=teac.`t_id`
+
+    </select>
+</mapper>

@@ -43,7 +43,7 @@ s.sub_miaoshu,
 s.deletestatus,
 s.livetime
     </sql>
-    <select id="findAllCourse" resultType="com.qf.j2003.pojo.Course" parameterType="int">
+    <select id="findAllCourse" resultMap="CourseMap" parameterType="int">
         SELECT
 <include refid="course_colums"/>
         FROM tb_subject s,

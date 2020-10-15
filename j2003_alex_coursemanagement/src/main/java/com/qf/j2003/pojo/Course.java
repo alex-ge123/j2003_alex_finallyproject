@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /*
@@ -25,7 +26,7 @@ deletestatus  int(11)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Course {
+public class Course implements Serializable {
     private  int s_id;
     private int sub_id;
     private String s_name;
