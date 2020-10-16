@@ -19,6 +19,12 @@
   </properties>
 
   <dependencies>
+    <!--    1、 Jedis-->
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>2.9.0</version>
+    </dependency>
     <!--SpringBoot集成junit测试的起步依赖-->
 
   <!--  <dependency>

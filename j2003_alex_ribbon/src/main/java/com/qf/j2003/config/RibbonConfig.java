@@ -1,6 +1,7 @@
 package com.qf.j2003.config;
 
 import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
 import com.netflix.loadbalancer.RoundRobinRule;
 import com.netflix.loadbalancer.WeightedResponseTimeRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -22,8 +23,8 @@ public class RibbonConfig{
     @Bean
     public IRule ribbonRule(){
        // return   new RoundRobinRule();//轮询
-    return    new WeightedResponseTimeRule(); //根据响应时间的权重策略
+   // return    new WeightedResponseTimeRule(); //根据响应时间的权重策略
 //        new BestAvailableRule(); //最有并发时间最少
-//        return new RandomRule();//随即策略
+       return new RandomRule();//随即策略
     }
 }

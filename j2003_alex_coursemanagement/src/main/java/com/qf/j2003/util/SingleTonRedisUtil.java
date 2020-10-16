@@ -7,7 +7,7 @@ import redis.clients.jedis.Jedis;
  */
 public class SingleTonRedisUtil implements RedisUtils{
     private Jedis jedis;
-    public   SingleTonRedisUtil(Jedis jedis){
+    public SingleTonRedisUtil(Jedis jedis){
          this.jedis = jedis;
     }
 
