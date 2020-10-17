@@ -45,10 +45,24 @@ s.livetime
     </sql>
     <select id="findAllCourse" resultMap="CourseMap" parameterType="int">
         SELECT
-<include refid="course_colums"/>
+        <include refid="course_colums"/>
         FROM tb_subject s,
         tb_course c
         WHERE  s.`sub_id`=c.`sub_id`
         and s.deletestatus=#{deleteStatus}
     </select>
+    <insert id="addCourseVo"  parameterType="com.qf.j2003.pojo.CourseVo" useGeneratedKeys="true" keyProperty="s_id">
+INSERT into tb_course
+(s_id,sub_id,s_name,s_yijifenlei,s_erjifenlei,
+s_imageurl,s_price,s_type,s_status,s_showstatus,
+s_createtime,s_updatetime,deletestatus,t_id
+)
+values
+(#{s_id},#{sub_id},#{s_name},
+#{s_yijifenlei},#{s_erjifenlei},
+#{s_imageurl},#{s_price},
+#{s_type},#{s_status},
+#{s_showstatus},#{s_createtime},
+#{s_updatetime},#{deletestatus},#{t_id});
+   </insert>
 </mapper>

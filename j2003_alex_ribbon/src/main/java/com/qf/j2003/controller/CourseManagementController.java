@@ -19,5 +19,4 @@ public ActionResult findAllCourseManagement(){
     ActionResult allCourseManagement = remoteRibbonService.findAllCourseManagement();
     return allCourseManagement;
 }
-
 }

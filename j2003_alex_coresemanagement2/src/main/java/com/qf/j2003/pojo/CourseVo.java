@@ -1,32 +1,11 @@
 package com.qf.j2003.pojo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
 import java.util.Date;
-
-/*
- s_id
-sub_id        int(11)
-s_name        varchar(20)
-s_yijifenlei  varchar(20)
-s_erjifenlei  varchar(20)
-s_imageurl    varchar(200)
-s_price       double
-s_type        varchar(10)
-s_status      varchar(10)
-s_showstatus  varchar(10)
-s_createtime  date
-s_updatetime  date
-deletestatus  int(11)
- * */
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class Course implements Serializable {
+public class CourseVo {
     private  int s_id;
     private int sub_id;
     private String s_name;
@@ -43,6 +22,4 @@ public class Course implements Serializable {
     private Date s_updatetime;
     private int deletestatus;
     private int t_id;
-    private Object Subject;
-
 }

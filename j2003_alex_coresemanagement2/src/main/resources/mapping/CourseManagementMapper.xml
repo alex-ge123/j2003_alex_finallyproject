@@ -19,6 +19,7 @@
         <result property="sub_miaoshu" column="sub_miaoshu"/>
         <result property="s_createtime" column="s_createtime"/>
         <result property="s_updatetime" column="s_updatetime"/>
+
     </resultMap>
     <sql id="coursemanagement_colums">
  s_id,

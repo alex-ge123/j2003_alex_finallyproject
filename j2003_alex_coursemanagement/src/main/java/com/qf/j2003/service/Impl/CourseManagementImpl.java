@@ -43,9 +43,5 @@ public class CourseManagementImpl implements CourseManagementService {
             }
             return all;
         }
-
-
         }
-
-
 }

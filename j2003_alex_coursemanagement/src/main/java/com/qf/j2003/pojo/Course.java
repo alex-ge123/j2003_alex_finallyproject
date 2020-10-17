@@ -42,6 +42,8 @@ public class Course implements Serializable {
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
     private Date s_updatetime;
     private int deletestatus;
+    private int t_id;
+
     private Object Subject;
 
 }

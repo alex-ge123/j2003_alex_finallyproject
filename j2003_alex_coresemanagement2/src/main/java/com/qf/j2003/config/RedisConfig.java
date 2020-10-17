@@ -16,7 +16,7 @@ public class RedisConfig {
     }
     @Bean(name="jedis")
     public Jedis getJedis(){
-        Jedis jedis = new Jedis("10.12.153.13", 6379);
+        Jedis jedis = new Jedis("localhost", 6379);
         return jedis;
     }
 
