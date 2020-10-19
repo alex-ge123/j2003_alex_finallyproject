@@ -1,6 +1,7 @@
 package com.qf.j2003.service;
 
 
+import com.qf.j2003.pojo.CourseVo;
 import com.qf.j2003.util.ActionResult;
 
 /**
@@ -9,5 +10,7 @@ import com.qf.j2003.util.ActionResult;
 public interface RemoteRibbonService {
 
    public ActionResult findAllCourseManagement();
+   public ActionResult addCourse(CourseVo courseVo);
+
 
 }

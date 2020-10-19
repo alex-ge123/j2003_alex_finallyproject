@@ -25,9 +25,14 @@ public class CourseManagementImpl implements CourseManagementService {
     //       获取redis中存出的json字符串
         String json1 = redisUtil.hget("coursemanages", "0");
         if(json1!=null){
-        log.info("查询redis获取");
-            List<CourseManagement> courseManagements = JsonUtils.jsonToList(json1, CourseManagement.class);
-            return courseManagements;
+            log.info("查询redis获取");
+            try {
+                List<CourseManagement> courseManagements = JsonUtils.jsonToList(json1, CourseManagement.class);
+                return courseManagements;
+            } catch (Exception e) {
+                e.printStackTrace();
+                log.info("redis异常，开启查询数据库");
+            }
         }else{
             List<CourseManagement> all = courseManagementMapper.findAll(DELETESTATUS);
             log.info("查询数据库获取 ");
@@ -43,9 +48,8 @@ public class CourseManagementImpl implements CourseManagementService {
             }
             return all;
         }
-
+return null;
 
         }
-
 
 }

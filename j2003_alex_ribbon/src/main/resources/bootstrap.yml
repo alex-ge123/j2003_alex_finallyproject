@@ -9,5 +9,5 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://root:root@10.12.153.12:8761/eureka/, http://root:root@10.12.153.12:8762/eureka/
+      defaultZone: http://root:root@10.12.153.77:8761/eureka/, http://root:root@10.12.153.77:8762/eureka/
       #defaultZone: http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/

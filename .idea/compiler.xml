@@ -11,9 +11,9 @@
         <module name="j2003_alex_eurekaserver2" />
         <module name="j2003_alex_eurekaserver1" />
         <module name="j2003_alex_coresemanagement2" />
-        <module name="j2003_zuul_server" />
-        <module name="j2003_publicDate" />
         <module name="j2003_alex_ribbon" />
+        <module name="j2003_publicDate" />
+        <module name="j2003_zuul_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
