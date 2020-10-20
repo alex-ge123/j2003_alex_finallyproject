@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/j2003_alex_eurekaserver2/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_alex_remoteconfigserver/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_zuul_server/pom.xml" />
+        <option value="$PROJECT_DIR$/login_eureka_client/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="j2003_zuul_server" />
-        <module name="j2003_publicDate" />
+        <module name="j2003_alex_remoteconfigserver" />
         <module name="j2003_alex_eurekaserver2" />
         <module name="j2003_alex_eurekaserver1" />
-        <module name="j2003_alex_remoteconfigserver" />
+        <module name="login_eureka_client" />
+        <module name="j2003_publicDate" />
+        <module name="j2003_zuul_server" />
       </profile>
     </annotationProcessing>
   </component>
