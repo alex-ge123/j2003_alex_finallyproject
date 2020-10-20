@@ -19,4 +19,7 @@ zuul:
     alex:
       path: /alex/**
       serviceId: alexribbonhystrix
-    ignored-services: alex-prodcuer-coursemanagement,alex-prodcuer-coursemanagement2
+    ignored-services: alex-prodcuer-coursemanagement,alex-prodcuer-coursemanagement2,
+    upload:
+      path: /alex1/**
+      serviceId: alex-prodcuer-imgupload
