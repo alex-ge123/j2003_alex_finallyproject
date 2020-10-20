@@ -4,7 +4,8 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/
+      defaultZone: http://root:root@10.12.153.77:8761/eureka/, http://root:root@10.12.153.77:8762/eureka/
+      #defaultZone: http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/
 server:
   port: 8088
 management:
@@ -12,11 +13,14 @@ management:
     web:
       exposure:
         include: "*"
+
 zuul:
   routes:
     lg:
       path: /lg/**
       serviceId: login-service
+    alex:
+      path: /alex/**
+      serviceId: alexribbonhystrix
+    ignored-services: alex-prodcuer-coursemanagement,alex-prodcuer-coursemanagement2
   sensitive-headers:
-
-

@@ -21,11 +21,17 @@
         <option value="$PROJECT_DIR$/j2003_alex_eurekaserver2/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_alex_remoteconfigserver/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_zuul_server/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/login_eureka_client/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/j2003_alex_coursemanagement/pom.xml" />
+        <option value="$PROJECT_DIR$/j2003_alex_ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/j2003_alex_coresemanagement2/pom.xml" />
+>>>>>>> cc4cb6bdbd0458a385e90a23a59f5d22fc6147c4
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8.0_162" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SuppressionsComponent">
