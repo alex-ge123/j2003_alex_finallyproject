@@ -3,7 +3,7 @@ server:
   port: 8888
 spring:
   application:
-    name: remoteconfig-service
+    name: remoteconfig-service123
   cloud:
     config:
       server:
@@ -26,8 +26,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone:  http://root:root@10.12.153.77:8761/eureka/, http://root:root@10.12.153.77:8762/eureka/
-      #defaultZone:  http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/
+      defaultZone:  http://root:root@10.12.153.63:8761/eureka/, http://root:root@10.12.153.63:8762/eureka/
 management:
   endpoints:
     web:

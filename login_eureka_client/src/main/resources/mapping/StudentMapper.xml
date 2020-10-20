@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.j2003.mapper.StudentMapper">
+<resultMap id="userMap" type="com.qf.j2003.po.Student">
+    <id property="sid" column="s_id"/>
+    <result property="name" column="s_name"/>
+    <result property="tel" column="s_tel"/>
+    <result property="password" column="password"/>
+</resultMap>
+    <select id="selectStuByTel" parameterType="string" resultMap="userMap">
+        select * from tb_student where s_tel=#{tel}
+    </select>
+    <insert id="insertStu" parameterType="com.qf.j2003.po.Student">
+        insert into tb_student(s_id,s_name,s_tel,password) values (#{sid},#{name},#{tel},#{password})
+    </insert>
+</mapper>

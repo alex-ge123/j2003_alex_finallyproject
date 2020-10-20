@@ -18,7 +18,11 @@
     <file url="file://$PROJECT_DIR$/j2003_publicDate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j2003_publicDate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j2003_zuul_server" charset="UTF-8" />
+<<<<<<< HEAD
+    <file url="file://$PROJECT_DIR$/login_eureka_client" charset="UTF-8" />
+=======
     <file url="file://$PROJECT_DIR$/j2003_zuul_server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j2003_zuul_server/src/main/resources" charset="UTF-8" />
+>>>>>>> cc4cb6bdbd0458a385e90a23a59f5d22fc6147c4
   </component>
 </project>

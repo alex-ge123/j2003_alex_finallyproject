@@ -18,7 +18,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="j2003_alex_couresemanagement2" target="1.8" />
+      <module name="j2003_alex_eurekaserver1" target="1.8" />
+      <module name="j2003_alex_eurekaserver2" target="1.8" />
+      <module name="j2003_alex_finallyproject" target="1.8" />
+      <module name="j2003_alex_remoteconfigserver" target="1.8" />
+      <module name="j2003_publicDate" target="1.8" />
+      <module name="j2003_zuul_server" target="1.8" />
+      <module name="login_eureka_client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

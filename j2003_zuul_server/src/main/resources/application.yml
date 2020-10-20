@@ -16,6 +16,9 @@ management:
 #自定义路由
 zuul:
   routes:
+    lg:
+      path: /lg/**
+      serviceId: login-service
     alex:
       path: /alex/**
       serviceId: alexribbonhystrix
@@ -23,3 +26,4 @@ zuul:
     upload:
       path: /alex1/**
       serviceId: alex-prodcuer-imgupload
+  sensitive-headers:
