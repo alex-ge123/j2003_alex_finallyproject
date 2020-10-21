@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/j2003_alex_finallyproject.iml" filepath="$PROJECT_DIR$/.idea/j2003_alex_finallyproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_alex_coresemanagement2/j2003_alex_coresemanagement2.iml" filepath="$PROJECT_DIR$/j2003_alex_coresemanagement2/j2003_alex_coresemanagement2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_alex_coursemanagement/j2003_alex_coursemanagement.iml" filepath="$PROJECT_DIR$/j2003_alex_coursemanagement/j2003_alex_coursemanagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_alex_eurekaserver1/j2003_alex_eurekaserver1.iml" filepath="$PROJECT_DIR$/j2003_alex_eurekaserver1/j2003_alex_eurekaserver1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_alex_eurekaserver2/j2003_alex_eurekaserver2.iml" filepath="$PROJECT_DIR$/j2003_alex_eurekaserver2/j2003_alex_eurekaserver2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_alex_finallyproject.iml" filepath="$PROJECT_DIR$/j2003_alex_finallyproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_alex_imgupload/j2003_alex_imgupload.iml" filepath="$PROJECT_DIR$/j2003_alex_imgupload/j2003_alex_imgupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_alex_remoteconfigserver/j2003_alex_remoteconfigserver.iml" filepath="$PROJECT_DIR$/j2003_alex_remoteconfigserver/j2003_alex_remoteconfigserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_alex_ribbon/j2003_alex_ribbon.iml" filepath="$PROJECT_DIR$/j2003_alex_ribbon/j2003_alex_ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_henry_subjectmanagement/j2003_henry_subjectmanagement.iml" filepath="$PROJECT_DIR$/j2003_henry_subjectmanagement/j2003_henry_subjectmanagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_henry_usermanagement/j2003_henry_usermanagement.iml" filepath="$PROJECT_DIR$/j2003_henry_usermanagement/j2003_henry_usermanagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_myteacher/j2003_myteacher.iml" filepath="$PROJECT_DIR$/j2003_myteacher/j2003_myteacher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_publicDate/j2003_publicDate.iml" filepath="$PROJECT_DIR$/j2003_publicDate/j2003_publicDate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2003_zuul_server/j2003_zuul_server.iml" filepath="$PROJECT_DIR$/j2003_zuul_server/j2003_zuul_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login_eureka_client/login_eureka_client.iml" filepath="$PROJECT_DIR$/login_eureka_client/login_eureka_client.iml" />
     </modules>
   </component>
 </project>

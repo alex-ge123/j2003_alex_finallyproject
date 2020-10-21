@@ -17,6 +17,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.qf.j2003</groupId>
+            <artifactId>j2003_publicDate</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!--监控界面-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

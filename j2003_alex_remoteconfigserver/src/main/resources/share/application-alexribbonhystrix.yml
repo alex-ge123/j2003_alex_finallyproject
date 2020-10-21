@@ -1,0 +1,5 @@
+#spring:
+#  application:
+#    name: alexribbonhystrix
+server:
+  port: 10002
