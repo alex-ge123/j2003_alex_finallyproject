@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/j2003_alex_eurekaserver1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j2003_alex_eurekaserver1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j2003_alex_eurekaserver2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j2003_alex_eurekaserver2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j2003_alex_remoteconfigserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j2003_alex_remoteconfigserver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j2003_leen_order_model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j2003_publicDate/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+=======
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j2003_alex_coresemanagement2" charset="UTF-8" />
@@ -14,6 +26,10 @@
     <file url="file://$PROJECT_DIR$/j2003_myteacher" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j2003_publicDate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j2003_zuul_server" charset="UTF-8" />
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/login_eureka_client" charset="UTF-8" />
+=======
+>>>>>>> b7f8f51b9bc8b8e4b03cace056bb0749e6faff04
+>>>>>>> 7ce0f5f9d951a406fcdfe468ae3c72490b85e70b
   </component>
 </project>

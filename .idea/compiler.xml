@@ -2,11 +2,33 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="j2003_alex_coresemanagement2" />
+=======
+<<<<<<< HEAD
+        <module name="j2003_leen_order_model" />
+        <module name="j2003_alex_remoteconfigserver" />
+        <module name="j2003_alex_eurekaserver2" />
+        <module name="j2003_alex_eurekaserver1" />
+        <module name="j2003_publicDate" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="j2003_leen_ordermodel" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="j2003_leen_order_model" options="-parameters" />
+      <module name="j2003_leen_ordermodel" options="-parameters" />
+    </option>
+=======
+>>>>>>> 7ce0f5f9d951a406fcdfe468ae3c72490b85e70b
         <module name="j2003_alex_coursemanagement" />
         <module name="j2003_alex_eurekaserver1" />
         <module name="j2003_alex_eurekaserver2" />
@@ -37,5 +59,6 @@
       <module name="j2003_zuul_server" target="1.8" />
       <module name="login_eureka_client" target="1.8" />
     </bytecodeTargetLevel>
+>>>>>>> b7f8f51b9bc8b8e4b03cace056bb0749e6faff04
   </component>
 </project>
