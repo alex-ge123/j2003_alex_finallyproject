@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qianfeng.j2003.mapper.TeacherMapper">
+    <resultMap id="teacherMap" type="com.qianfeng.j2003.pojo.Teacher">
+      <id property="id" column="t_id"/>
+        <result property="name" column="t_name"></result>
+        <result property="imageurl" column="t_imageurl"></result>
+        <result property="subject" column="t_subject"></result>
+        <result property="grade" column="t_grade"></result>
+        <result property="info" column="t_info"></result>
+    </resultMap>
+    <sql id="teacherColum">
+        t_id,t_name,t_imageurl,t_subject,t_grade,t_info
+    </sql>
+    <select id="findTeacherById" parameterType="int" resultMap="teacherMap">
+      SELECT
+      <include refid="teacherColum"/>
+      from tb_teacher
+      where t_id=#{id}
+    </select>
+</mapper>

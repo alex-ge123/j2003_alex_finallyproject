@@ -10,6 +10,7 @@
         <module name="j2003_alex_eurekaserver1" />
         <module name="j2003_alex_eurekaserver2" />
         <module name="j2003_alex_remoteconfigserver" />
+        <module name="j2003_myteacher" />
         <module name="j2003_publicDate" />
         <module name="j2003_zuul_server" />
       </profile>
@@ -20,6 +21,8 @@
       <module name="j2003_alex_eurekaserver2" target="1.8" />
       <module name="j2003_alex_finallyproject" target="1.7" />
       <module name="j2003_alex_remoteconfigserver" target="1.8" />
+      <module name="j2003_myteacher" target="1.8" />
+      <module name="j2003_myteacher_producer" target="1.8" />
       <module name="j2003_publicDate" target="1.7" />
       <module name="j2003_zuul_server" target="1.8" />
     </bytecodeTargetLevel>
