@@ -1,0 +1,18 @@
+server:
+  port: 9082
+spring:
+  application:
+    name: subjectmanagement-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.12.153.77:3306/education?serverTimezone=UTC
+    username: root
+    password: ROOT
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.qf.j2003.po
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root@localhost:8761/eureka/,http://root:root@localhost:8762/eureka/
+

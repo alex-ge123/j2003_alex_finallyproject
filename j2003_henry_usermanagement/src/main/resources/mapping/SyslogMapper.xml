@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.j2003.mapper.SyslogMapper">
+
+    <insert id="addSysLog" parameterType="com.qf.j2003.po.Syslog"  >
+        INSERT INTO SYS_LOG(USER_ID,USER_ACTION,CREATE_TIME)
+        VALUES(#{userID},#{userAction},#{createTime})
+    </insert>
+</mapper>

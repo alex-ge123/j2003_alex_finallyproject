@@ -1,0 +1,26 @@
+
+server:
+  port: 9081
+spring:
+  application:
+    name: usermanagement-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.12.153.77:3306/education?serverTimezone=UTC
+    username: root
+    password: ROOT
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root@10.12.153.76:8761/eureka/, http://root:root@10.12.153.76:8762/eureka/
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.qf.j2003.po
+logging:
+  level:
+    root: info
