@@ -22,7 +22,7 @@
             <id column="sub_id" property="sub_id"/>
             <result column="sub_miaoshu" property="sub_miaoshu"/>
             <result column="deletestatus" property="deletestatus"/>
-            <result column="livetime" property="livetime"/>
+           <result property="startlivetime" column="startlivetime"/>
         </association>
     </resultMap>
     <resultMap id="CourseVoMap" type="com.qf.j2003.pojo.CourseVo">
@@ -59,7 +59,7 @@ c.deletestatus,
 s.sub_id,
 s.sub_miaoshu,
 s.deletestatus,
-s.livetime
+s.startlivetime
     </sql>
     <select id="findAllCourse" resultMap="CourseMap" parameterType="int">
         SELECT

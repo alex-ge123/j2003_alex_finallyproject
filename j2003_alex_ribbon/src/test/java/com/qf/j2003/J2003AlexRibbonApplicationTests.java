@@ -18,7 +18,7 @@ private RemoteRibbonService remoteRibbonService;
     CourseVo courseVo = new CourseVo();
     courseVo.setDeletestatus(1);
     courseVo.setS_name("急急急");
-    courseVo.setS_id(27);
+    courseVo.setS_id(24);
     courseVo.setSub_id(15);
     courseVo.setT_id(5);
     ActionResult actionResult = remoteRibbonService.addCourse(courseVo);

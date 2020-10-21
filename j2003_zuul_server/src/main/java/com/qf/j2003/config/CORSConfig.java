@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
   * @author sunQuanxi
   * @date 2020/10/16 16:35
   */
-@Configuration
+//@Configuration
 public class CORSConfig {
 
     @Bean

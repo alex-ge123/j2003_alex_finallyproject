@@ -23,8 +23,8 @@ class J2003AlexCoursemanagementApplicationTests {
 
   @Test
   void contextLoads() {
-    List<Subject> allSubject = subjectMapper.findAllSubject(1);
-    for (Subject subject:allSubject){
+      List<Subject> allSubject = subjectMapper.findAllSubject(1);
+      for (Subject subject:allSubject){
 
       System.out.println(subject);
     }

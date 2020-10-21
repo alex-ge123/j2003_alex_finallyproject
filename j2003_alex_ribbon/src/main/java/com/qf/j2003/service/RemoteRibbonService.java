@@ -11,6 +11,7 @@ public interface RemoteRibbonService {
 
    public ActionResult findAllCourseManagement();
    public ActionResult addCourse(CourseVo courseVo);
+   public ActionResult findSubject();
 
 
 }

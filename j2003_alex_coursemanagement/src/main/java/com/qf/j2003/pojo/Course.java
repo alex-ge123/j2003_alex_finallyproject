@@ -37,6 +37,7 @@ public class Course implements Serializable {
     private String s_type;
     private String s_status;
     private String s_showstatus;
+    private Date startlivetime;
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
     private Date s_createtime;
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")

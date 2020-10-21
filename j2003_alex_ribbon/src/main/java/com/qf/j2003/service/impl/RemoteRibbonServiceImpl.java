@@ -3,6 +3,7 @@ package com.qf.j2003.service.impl;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.qf.j2003.pojo.CourseVo;
+import com.qf.j2003.pojo.Subject;
 import com.qf.j2003.service.RemoteRibbonService;
 import com.qf.j2003.util.ActionResult;
 
@@ -44,6 +45,20 @@ public class RemoteRibbonServiceImpl implements RemoteRibbonService {
         ActionResult actionResult = restTemplate.postForObject(url, courseVo, ActionResult.class);
         return actionResult;
     }
+
+    @Override
+    @HystrixCommand(fallbackMethod="findSubjectError")
+    public ActionResult findSubject() {
+        String url ="http://alex-prodcuer-coursemanagement/subjects";
+
+        ActionResult forObject = restTemplate.getForObject(url, ActionResult.class);
+            if (forObject != null) {
+             return forObject;
+             }else {
+                return new ActionResult(500,"查询subject失败",null);
+            }
+    }
+
     //执行降级服务
     public  ActionResult fetchMsgError(){
         log.info("执行降级服务");
@@ -51,7 +66,11 @@ public class RemoteRibbonServiceImpl implements RemoteRibbonService {
     }
     //执行降级服务
     public  ActionResult addCourseError(CourseVo courseVo){
-        log.info("执行降级服务");
+        log.info("addcourse执行降级服务");
         return new ActionResult(500," 增加失败",null);
+    }
+    public ActionResult findSubjectError(){
+        log.info("subject执行降级服务");
+        return new ActionResult(500," 查询subject失败",null);
     }
 }

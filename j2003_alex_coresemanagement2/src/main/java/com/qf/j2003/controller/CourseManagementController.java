@@ -4,7 +4,6 @@ import com.qf.j2003.pojo.CourseManagement;
 import com.qf.j2003.service.CourseManagementService;
 import com.qf.j2003.util.ActionResult;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

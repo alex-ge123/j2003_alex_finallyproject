@@ -21,7 +21,7 @@
             <id column="sub_id" property="sub_id"/>
             <result column="sub_miaoshu" property="sub_miaoshu"/>
             <result column="deletestatus" property="deletestatus"/>
-            <result column="livetime" property="livetime"/>
+            <result property="startlivetime" column="startlivetime"/>
         </association>
     </resultMap>
     <sql id="course_colums">
