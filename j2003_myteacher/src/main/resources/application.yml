@@ -1,0 +1,25 @@
+
+spring:
+  application:
+    name: myteacher-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.12.153.77:3306/education?characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: ROOT
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root@localhost:8761/eureka, http://root:root@localhost:8762/eureka
+server:
+  port: 10060
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.qianfeng.j2003.pojo
+logging:
+  path: ./spring/log/edulog     #在项目跟目录文件下/spring/log/edulog生成spring.log文件
+#  file: xxx.log
+redis:
+  host: localhost
+  port: 6379
+  database: 0

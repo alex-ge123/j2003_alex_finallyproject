@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.j2003.mapper.CourseMapper">
+    <resultMap id="CourseMap" type="com.qf.j2003.pojo.Course">
+        <id column="s_id" property="s_id"/>
+        <result column="sub_id" property="sub_id"/>
+        <result column="s_name" property="s_name"/>
+        <result column="s_yijifenlei" property="s_yijifenlei"/>
+        <result property="s_erjifenlei" column="s_erjifenlei"/>
+        <result property="s_imageurl" column="s_imageurl"/>
+        <result property="s_price" column="s_price" />
+        <result property="s_type" column="s_type"/>
+        <result property="s_status" column="s_status"/>
+        <result property="s_showstatus" column="s_showstatus"/>
+        <result property="s_createtime" column="s_createtime"/>
+        <result property="s_updatetime" column="s_updatetime"/>
+        <result property="deletestatus" column="deletestatus"/>
+        <association property="subject" javaType="com.qf.j2003.pojo.Subject">
+            <id column="sub_id" property="sub_id"/>
+            <result column="sub_miaoshu" property="sub_miaoshu"/>
+            <result column="deletestatus" property="deletestatus"/>
+            <result property="startlivetime" column="startlivetime"/>
+        </association>
+    </resultMap>
+    <sql id="course_colums">
+c.s_id,
+c.sub_id,
+c.s_name,
+c.s_yijifenlei,
+c.s_erjifenlei,
+c.s_imageurl,
+c.s_price,
+c.s_type,
+c.s_status,
+c.s_showstatus,
+c.s_createtime,
+c.s_updatetime,
+c.deletestatus,
+s.sub_id,
+s.sub_miaoshu,
+s.deletestatus,
+s.livetime
+    </sql>
+    <select id="findAllCourse" resultMap="CourseMap" parameterType="int">
+        SELECT
+        <include refid="course_colums"/>
+        FROM tb_subject s,
+        tb_course c
+        WHERE  s.`sub_id`=c.`sub_id`
+        and s.deletestatus=#{deleteStatus}
+    </select>
+    <insert id="addCourseVo"  parameterType="com.qf.j2003.pojo.CourseVo" useGeneratedKeys="true" keyProperty="s_id">
+INSERT into tb_course
+(s_id,sub_id,s_name,s_yijifenlei,s_erjifenlei,
+s_imageurl,s_price,s_type,s_status,s_showstatus,
+s_createtime,s_updatetime,deletestatus,t_id
+)
+values
+(#{s_id},#{sub_id},#{s_name},
+#{s_yijifenlei},#{s_erjifenlei},
+#{s_imageurl},#{s_price},
+#{s_type},#{s_status},
+#{s_showstatus},#{s_createtime},
+#{s_updatetime},#{deletestatus},#{t_id});
+   </insert>
+</mapper>

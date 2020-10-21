@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="j2003_leen_order_model" />
         <module name="j2003_alex_remoteconfigserver" />
         <module name="j2003_alex_eurekaserver2" />
@@ -23,5 +24,26 @@
       <module name="j2003_leen_order_model" options="-parameters" />
       <module name="j2003_leen_ordermodel" options="-parameters" />
     </option>
+=======
+        <module name="j2003_alex_coursemanagement" />
+        <module name="j2003_alex_eurekaserver1" />
+        <module name="j2003_alex_eurekaserver2" />
+        <module name="j2003_alex_remoteconfigserver" />
+        <module name="j2003_myteacher" />
+        <module name="j2003_publicDate" />
+        <module name="j2003_zuul_server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="j2003_alex_coursemanagement" target="1.8" />
+      <module name="j2003_alex_eurekaserver1" target="1.8" />
+      <module name="j2003_alex_eurekaserver2" target="1.8" />
+      <module name="j2003_alex_finallyproject" target="1.7" />
+      <module name="j2003_alex_remoteconfigserver" target="1.8" />
+      <module name="j2003_myteacher" target="1.8" />
+      <module name="j2003_publicDate" target="1.7" />
+      <module name="j2003_zuul_server" target="1.8" />
+    </bytecodeTargetLevel>
+>>>>>>> b7f8f51b9bc8b8e4b03cace056bb0749e6faff04
   </component>
 </project>

@@ -1,0 +1,143 @@
+2020-10-19 21:04:16.025  INFO 17660 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-10-19 21:04:17.269  INFO 17660 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-10-19 21:04:17.271  WARN 17660 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/myteacher-service/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-10-19 21:04:17.300  INFO 17660 --- [main] c.q.j.J2003MyteacherApplicationTests     : No active profile set, falling back to default profiles: default
+2020-10-19 21:04:18.930  INFO 17660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 21:04:18.941  INFO 17660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 21:04:19.129  INFO 17660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 0 Redis repository interfaces.
+2020-10-19 21:04:20.168  INFO 17660 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7877332b-c94b-3293-8bba-6cddfe6a9866
+2020-10-19 21:04:23.893  WARN 17660 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:04:23.894  INFO 17660 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:04:23.917  WARN 17660 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:04:23.917  INFO 17660 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:04:26.073  INFO 17660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:04:31.682  INFO 17660 --- [main] c.q.j.J2003MyteacherApplicationTests     : Started J2003MyteacherApplicationTests in 20.426 seconds (JVM running for 24.747)
+2020-10-19 21:04:32.498  INFO 17660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-19 21:04:33.233  INFO 17660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-19 21:04:33.657  INFO 17660 --- [Thread-5] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-10-19 21:04:33.669  INFO 17660 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MYTEACHER-SERVICE with eureka with status DOWN
+2020-10-19 21:04:33.729  INFO 17660 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:04:33.751  INFO 17660 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-19 21:04:33.787  INFO 17660 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-19 21:07:27.971  INFO 12012 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-10-19 21:07:29.218  INFO 12012 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-10-19 21:07:29.220  WARN 12012 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/myteacher-service/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-10-19 21:07:29.258  INFO 12012 --- [main] c.q.j.J2003MyteacherApplicationTests     : No active profile set, falling back to default profiles: default
+2020-10-19 21:07:30.636  INFO 12012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 21:07:30.645  INFO 12012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 21:07:30.774  INFO 12012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 0 Redis repository interfaces.
+2020-10-19 21:07:31.958  INFO 12012 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7877332b-c94b-3293-8bba-6cddfe6a9866
+2020-10-19 21:07:35.174  WARN 12012 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:07:35.174  INFO 12012 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:07:35.188  WARN 12012 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:07:35.189  INFO 12012 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:07:37.195  INFO 12012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:07:42.879  INFO 12012 --- [main] c.q.j.J2003MyteacherApplicationTests     : Started J2003MyteacherApplicationTests in 20.208 seconds (JVM running for 23.504)
+2020-10-19 21:07:43.533  INFO 12012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-19 21:07:44.335  INFO 12012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-19 21:07:44.731  INFO 12012 --- [Thread-5] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-10-19 21:07:44.744  INFO 12012 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MYTEACHER-SERVICE with eureka with status DOWN
+2020-10-19 21:07:44.803  INFO 12012 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:07:44.815  INFO 12012 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-19 21:07:44.849  INFO 12012 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-19 21:10:45.131  INFO 18140 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-10-19 21:10:46.366  INFO 18140 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-10-19 21:10:46.368  WARN 18140 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/myteacher-service/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-10-19 21:10:46.409  INFO 18140 --- [main] c.q.j.J2003MyteacherApplicationTests     : No active profile set, falling back to default profiles: default
+2020-10-19 21:10:47.696  INFO 18140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 21:10:47.705  INFO 18140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 21:10:47.796  INFO 18140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 0 Redis repository interfaces.
+2020-10-19 21:10:48.922  INFO 18140 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7877332b-c94b-3293-8bba-6cddfe6a9866
+2020-10-19 21:10:52.173  WARN 18140 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:10:52.173  INFO 18140 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:10:52.193  WARN 18140 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:10:52.193  INFO 18140 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:10:54.459  INFO 18140 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:11:00.279  INFO 18140 --- [main] c.q.j.J2003MyteacherApplicationTests     : Started J2003MyteacherApplicationTests in 20.617 seconds (JVM running for 23.958)
+2020-10-19 21:11:00.949  INFO 18140 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-19 21:11:01.774  INFO 18140 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-19 21:11:01.960  INFO 18140 --- [main] c.q.j.J2003MyteacherApplicationTests     : SubjectVo(sub_id=9, imgurl=null, miaoshu=高考数学抢跑夺分特训营, price=0.0, status=null, time=0, startLiveTime=Thu Oct 15 16:27:42 CST 2020)
+2020-10-19 21:11:02.111  INFO 18140 --- [Thread-5] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-10-19 21:11:02.135  INFO 18140 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MYTEACHER-SERVICE with eureka with status DOWN
+2020-10-19 21:11:02.206  INFO 18140 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:11:02.222  INFO 18140 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-19 21:11:02.265  INFO 18140 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-19 21:11:36.164  INFO 76 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-10-19 21:11:37.367  INFO 76 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-10-19 21:11:37.368  WARN 76 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/myteacher-service/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-10-19 21:11:37.393  INFO 76 --- [main] c.q.j.J2003MyteacherApplicationTests     : No active profile set, falling back to default profiles: default
+2020-10-19 21:11:39.041  INFO 76 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 21:11:39.047  INFO 76 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 21:11:39.195  INFO 76 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85ms. Found 0 Redis repository interfaces.
+2020-10-19 21:11:40.283  INFO 76 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7877332b-c94b-3293-8bba-6cddfe6a9866
+2020-10-19 21:11:43.568  WARN 76 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:11:43.568  INFO 76 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:11:43.585  WARN 76 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:11:43.586  INFO 76 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:11:45.270  INFO 76 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:11:51.404  INFO 76 --- [main] c.q.j.J2003MyteacherApplicationTests     : Started J2003MyteacherApplicationTests in 20.991 seconds (JVM running for 24.572)
+2020-10-19 21:11:52.061  INFO 76 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-19 21:11:52.852  INFO 76 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-19 21:11:52.991  INFO 76 --- [main] c.q.j.J2003MyteacherApplicationTests     : SubjectVo(sub_id=9, imgurl=null, miaoshu=高考数学抢跑夺分特训营, price=0.0, status=null, time=0, startLiveTime=Thu Oct 15 16:27:42 CST 2020)
+2020-10-19 21:11:53.083  INFO 76 --- [Thread-5] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-10-19 21:11:53.095  INFO 76 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MYTEACHER-SERVICE with eureka with status DOWN
+2020-10-19 21:11:53.160  INFO 76 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:11:53.171  INFO 76 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-19 21:11:53.206  INFO 76 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-19 21:13:56.847  INFO 13112 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-10-19 21:13:58.529  INFO 13112 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-10-19 21:13:58.530  WARN 13112 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/myteacher-service/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-10-19 21:13:58.564  INFO 13112 --- [main] c.q.j.J2003MyteacherApplicationTests     : No active profile set, falling back to default profiles: default
+2020-10-19 21:14:00.059  INFO 13112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 21:14:00.069  INFO 13112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 21:14:00.181  INFO 13112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 0 Redis repository interfaces.
+2020-10-19 21:14:01.304  INFO 13112 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7877332b-c94b-3293-8bba-6cddfe6a9866
+2020-10-19 21:14:04.770  WARN 13112 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:14:04.771  INFO 13112 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:14:04.784  WARN 13112 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:14:04.784  INFO 13112 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:14:06.917  INFO 13112 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:14:12.954  INFO 13112 --- [main] c.q.j.J2003MyteacherApplicationTests     : Started J2003MyteacherApplicationTests in 22.25 seconds (JVM running for 25.894)
+2020-10-19 21:14:13.551  INFO 13112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-19 21:14:14.277  INFO 13112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-19 21:14:14.503  INFO 13112 --- [Thread-5] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-10-19 21:14:14.551  INFO 13112 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MYTEACHER-SERVICE with eureka with status DOWN
+2020-10-19 21:14:14.649  INFO 13112 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:14:14.676  INFO 13112 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-19 21:14:14.737  INFO 13112 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-19 21:16:34.818  INFO 14952 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-10-19 21:16:36.165  INFO 14952 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-10-19 21:16:36.169  WARN 14952 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/myteacher-service/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-10-19 21:16:36.192  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : No active profile set, falling back to default profiles: default
+2020-10-19 21:16:37.531  INFO 14952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 21:16:37.541  INFO 14952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 21:16:37.624  INFO 14952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 0 Redis repository interfaces.
+2020-10-19 21:16:38.614  INFO 14952 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7877332b-c94b-3293-8bba-6cddfe6a9866
+2020-10-19 21:16:41.900  WARN 14952 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:16:41.900  INFO 14952 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:16:41.924  WARN 14952 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-19 21:16:41.925  INFO 14952 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-19 21:16:43.661  INFO 14952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:16:49.644  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : Started J2003MyteacherApplicationTests in 19.913 seconds (JVM running for 23.387)
+2020-10-19 21:16:50.279  INFO 14952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-19 21:16:50.682  INFO 14952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-19 21:16:51.150  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : CourseVo(s_id=0, s_name=高中数学解三角形+角平分线难点突破
+, s_liveTime=Wed Oct 14 19:14:54 CST 2020)
+2020-10-19 21:16:51.151  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : CourseVo(s_id=1, s_name=高中数学解微积分+线性代数难点突破
+, s_liveTime=Fri Oct 16 19:15:04 CST 2020)
+2020-10-19 21:16:51.151  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : CourseVo(s_id=3, s_name=高中数学解三角形+角平分线难点突破
+, s_liveTime=Fri Oct 16 19:16:34 CST 2020)
+2020-10-19 21:16:51.151  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : CourseVo(s_id=4, s_name= 高中数学解三角形+角平分线难点突破, s_liveTime=Wed Oct 21 19:16:38 CST 2020)
+2020-10-19 21:16:51.152  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : CourseVo(s_id=5, s_name=高中数学解三角形+角平分线难点突破
+, s_liveTime=Fri Oct 30 19:16:42 CST 2020)
+2020-10-19 21:16:51.152  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : CourseVo(s_id=15, s_name=高中数学解微积分+线性代数难点突破
+, s_liveTime=Wed Oct 14 19:17:24 CST 2020)
+2020-10-19 21:16:51.152  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : CourseVo(s_id=16, s_name=高中数学解微积分+线性代数难点突破
+, s_liveTime=Wed Oct 28 19:17:28 CST 2020)
+2020-10-19 21:16:51.152  INFO 14952 --- [main] c.q.j.J2003MyteacherApplicationTests     : CourseVo(s_id=17, s_name=高中数学解微积分+线性代数难点突破
+, s_liveTime=Wed Oct 28 19:17:32 CST 2020)
+2020-10-19 21:16:51.238  INFO 14952 --- [Thread-5] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-10-19 21:16:51.250  INFO 14952 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MYTEACHER-SERVICE with eureka with status DOWN
+2020-10-19 21:16:51.313  INFO 14952 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-19 21:16:51.320  INFO 14952 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-19 21:16:51.354  INFO 14952 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
