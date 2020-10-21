@@ -22,7 +22,6 @@
       <module name="j2003_alex_finallyproject" target="1.7" />
       <module name="j2003_alex_remoteconfigserver" target="1.8" />
       <module name="j2003_myteacher" target="1.8" />
-      <module name="j2003_myteacher_producer" target="1.8" />
       <module name="j2003_publicDate" target="1.7" />
       <module name="j2003_zuul_server" target="1.8" />
     </bytecodeTargetLevel>

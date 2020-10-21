@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /*
@@ -25,7 +26,7 @@ deletestatus  int(11)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Course {
+public class Course implements Serializable {
     private  int s_id;
     private int sub_id;
     private String s_name;
@@ -36,11 +37,14 @@ public class Course {
     private String s_type;
     private String s_status;
     private String s_showstatus;
+    private Date startlivetime;
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
     private Date s_createtime;
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
     private Date s_updatetime;
     private int deletestatus;
+    private int t_id;
+
     private Object Subject;
 
 }

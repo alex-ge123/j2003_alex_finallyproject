@@ -3,7 +3,7 @@ server:
   port: 8888
 spring:
   application:
-    name: remoteconfig-service
+    name: remoteconfig-service123
   cloud:
     config:
       server:
