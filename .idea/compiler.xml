@@ -18,6 +18,9 @@
         <module name="j2003_alex_ribbon" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="j2003_alex_finallyproject" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
