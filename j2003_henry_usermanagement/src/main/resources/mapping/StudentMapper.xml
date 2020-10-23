@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.j2003.mapper.StudentMapper">
+    <resultMap id="StudentMap" type="com.qf.j2003.po.Student">
+        <id property="sid" column="s_id"/>
+        <result property="sname" column="s_name"/>
+        <result property="stel" column="s_tel"/>
+        <result property="snumber" column="s_number"/>
+        <result property="createdate" column="createtime"/>
+    </resultMap>
+    <sql id="studentmsg">
+            s_id,s_name,s_tel,s_number,createtime
+    </sql>
+
+    <select id="selectAllStudent" resultMap="StudentMap">
+        select
+        <include refid="studentmsg"/>
+         from
+        tb_student
+    </select>
+
+    <select id="selectSomeStudent" parameterType="com.qf.j2003.vo.StudentVo" resultMap="StudentMap">
+        SELECT
+        <include refid="studentmsg"/>
+        FROM
+        tb_student
+        <where>
+            <if test="username != null">
+                s_name LIKE CONCAT(CONCAT('%',#{username},'%')) OR s_tel LIKE CONCAT(CONCAT('%',#{username},'%'))
+            </if>
+            <if test="startTime != null" >
+                and createtime >= #{startTime}
+            </if>
+
+            <if test="endTime!=null" >
+                and createtime &lt; #{endTime}
+            </if>
+
+        </where>
+    </select>
+
+</mapper>

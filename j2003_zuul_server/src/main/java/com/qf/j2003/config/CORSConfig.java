@@ -6,11 +6,13 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
-  * Description TODO
-  * @author sunQuanxi
-  * @date 2020/10/16 16:35
-  */
-//@Configuration
+
+ * Description TODO
+ * @author sunQuanxi
+ * @date 2020/10/16 16:35
+ */
+@Configuration
+
 public class CORSConfig {
 
     @Bean

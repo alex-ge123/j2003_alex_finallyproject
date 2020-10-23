@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.j2003.mapper.TeacherMapper">
+<resultMap id="TeacherMap" type="com.qf.j2003.po.Teacher">
+    <id property="tid" column="t_id"/>
+    <result property="tidCard" column="t_idcard"/>
+    <result property="timageUrl" column="t_imageurl"/>
+    <result property="ttel" column="t_tel"/>
+    <result property="tname" column="t_name"/>
+    <result property="tgrade" column="t_grade"/>
+    <result property="tsubject" column="t_subject"/>
+    <result property="tinfo" column="t_info"/>
+    <result property="tmoneyprop" column="t_moneyprop"/>
+    <result property="tcreateTime" column="create_time"/>
+    <result property="tincome" column="t_income"/>
+    <result property="tixainmoney" column="t_tixainmoney"/>
+    <result property="stuNum" column="t_stunum"/>
+    <result property="subNum" column="t_subNum"/>
+    <result property="tstatus" column="deletestatus"/>
+    <result property="password" column="password"/>
+</resultMap>
+    <sql id="teacherMsg" >
+        t_id,t_idcard,t_imageurl,t_tel,t_name,t_grade,t_subject,t_info,t_moneyprop,create_time,t_income,t_tixainmoney,t_stunum,t_subNum,deletestatus
+    </sql>
+    <select id="selectAllTeacher" resultMap="TeacherMap">
+        SELECT
+        <include refid="teacherMsg"/>
+        FROM
+        tb_teacher
+    </select>
+
+    <insert id="insertTeacher" parameterType="com.qf.j2003.po.Teacher">
+        INSERT INTO
+        tb_teacher
+        (t_idcard,t_tel,password,t_info,t_grade,t_subject,t_moneyprop)
+        VALUES
+        (#{tidCard},#{ttel},#{password},#{tinfo},#{tgrade},#{tsubject},#{tmoneyprop})
+    </insert>
+
+    <select id="selectSomeTeacher" parameterType="com.qf.j2003.vo.TeacherVo" resultMap="TeacherMap">
+       SELECT
+       <include refid="teacherMsg"/>
+        FROM
+        tb_teacher
+        <where>
+            <if test="username != null">
+                t_name LIKE CONCAT(CONCAT('%',#{username},'%')) OR t_tel LIKE CONCAT(CONCAT('%',#{username},'%'))
+            </if>
+            <if test="tstatus !=null">
+                and deletestatus = #{tstatus}
+            </if>
+            <if test="startTime != null" >
+                and create_time >= #{startTime}
+            </if>
+
+            <if test="endTime!=null" >
+                and create_time &lt; #{endTime}
+            </if>
+        </where>
+    </select>
+</mapper>

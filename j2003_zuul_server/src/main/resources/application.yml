@@ -1,11 +1,19 @@
 spring:
   application:
-    name: zuul-server
+    name: zuul-service
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/Army6688/edu_config.git #放置配置文件的git repository
+#          search-paths: edu_common_config
 eureka:
   client:
     service-url:
-      defaultZone: http://root:root@10.12.153.77:8761/eureka/, http://root:root@10.12.153.77:8762/eureka/
-      #defaultZone: http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/
+
+#      defaultZone: http://root:root@10.12.153.77:8761/eureka/, http://root:root@10.12.153.77:8762/eureka/
+      defaultZone: http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/
+
 server:
   port: 8088
 management:
