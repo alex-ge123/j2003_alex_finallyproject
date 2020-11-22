@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="j2003_alex_finallyproject:war exploded">
+    <output-path>$PROJECT_DIR$/target/j2003_alex_finallyproject</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>j2003_alex_finallyproject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="j2003_alex_finallyproject" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/j2003_alex_finallyproject/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="j2003_alex_finallyproject/web/Web" />
+    </root>
+  </artifact>
+</component>

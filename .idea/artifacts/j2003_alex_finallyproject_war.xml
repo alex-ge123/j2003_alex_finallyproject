@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="j2003_alex_finallyproject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>j2003_alex_finallyproject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="j2003_alex_finallyproject.war">
+      <element id="artifact" artifact-name="j2003_alex_finallyproject:war exploded" />
+    </root>
+  </artifact>
+</component>

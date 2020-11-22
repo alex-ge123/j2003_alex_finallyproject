@@ -19,9 +19,9 @@
         <option value="$PROJECT_DIR$/j2003_alex_eurekaserver1/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_alex_eurekaserver2/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_alex_remoteconfigserver/pom.xml" />
-<<<<<<< HEAD
+
         <option value="$PROJECT_DIR$/j2003_leen_order_model/pom.xml" />
-=======
+
         <option value="$PROJECT_DIR$/j2003_zuul_server/pom.xml" />
         <option value="$PROJECT_DIR$/login_eureka_client/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_alex_coursemanagement/pom.xml" />
@@ -29,14 +29,13 @@
         <option value="$PROJECT_DIR$/j2003_alex_ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_alex_coresemanagement2/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_alex_imgupload/pom.xml" />
-<<<<<<< HEAD
+
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_henry_subjectmanagement/pom.xml" />
         <option value="$PROJECT_DIR$/j2003_henry_usermanagement/pom.xml" />
-=======
 
->>>>>>> b7f8f51b9bc8b8e4b03cace056bb0749e6faff04
->>>>>>> 7ce0f5f9d951a406fcdfe468ae3c72490b85e70b
+
+
       </list>
     </option>
     <option name="ignoredFiles">

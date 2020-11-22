@@ -53,6 +53,7 @@ public class OrderInfoServiceImpl implements OrderInfoService {
         return mapper.findOrderInfo();
     }
 
+    @Override
     public List<Map<String, Object>> getOrderInfoFuzzy(int pageNo, int pageSize, QueryWrapper queryWrapper) throws IOException {
 
         // 分页， 如果传入的页码为非法数值，设置为1

@@ -11,8 +11,8 @@ eureka:
   client:
     service-url:
 
-#      defaultZone: http://root:root@10.12.153.77:8761/eureka/, http://root:root@10.12.153.77:8762/eureka/
-      defaultZone: http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/
+      defaultZone: http://root:root@10.12.153.77:8761/eureka/, http://root:root@10.12.153.77:8762/eureka/
+      #defaultZone: http://root:root@localhost:8761/eureka/, http://root:root@localhost:8762/eureka/
 
 server:
   port: 8088
@@ -35,3 +35,10 @@ zuul:
       path: /alex1/**
       serviceId: alex-prodcuer-imgupload
   sensitive-headers:
+    zam:
+      path: /zam/**
+      serviceId: myteacher-service
+    leen:
+      path: /leen/**
+      serviceId: leen-order-model
+

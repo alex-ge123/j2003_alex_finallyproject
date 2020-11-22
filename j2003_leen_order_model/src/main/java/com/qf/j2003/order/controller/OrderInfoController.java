@@ -5,10 +5,7 @@ import com.qf.j2003.order.pojo.OrderInfo;
 import com.qf.j2003.order.pojo.QueryWrapper;
 import com.qf.j2003.order.service.OrderInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Nullable;
 import java.io.IOException;
@@ -22,13 +19,11 @@ public class OrderInfoController {
 
     @Autowired
     private OrderInfoService service ;
-
-    @GetMapping("/order/orderInfo")
+    @RequestMapping(value = "/order/orderInfo",method = RequestMethod.GET)
     public List<OrderInfo> getOrderInfo(){
         return service.getOrderInfo();
     }
-
-    @GetMapping("/order/search/order")
+    @RequestMapping(value = "/order/search/order" , method = RequestMethod.GET)
     public String getOrderInfo(QueryWrapper queryWrapper) throws IOException {
         System.out.println(queryWrapper);
         List<Map<String, Object>> orderInfoFuzzy = service.getOrderInfoFuzzy(1, 5, queryWrapper);

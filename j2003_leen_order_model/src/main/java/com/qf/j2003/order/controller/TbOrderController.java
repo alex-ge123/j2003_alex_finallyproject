@@ -5,6 +5,7 @@ import com.netflix.discovery.converters.Auto;
 import com.qf.j2003.order.pojo.TbOrder;
 import com.qf.j2003.order.service.impl.TbOrderServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -21,7 +22,8 @@ import java.util.List;
  * @since 2020-10-13
  */
 @RestController
-@RequestMapping("/order/tb-order")
+@CrossOrigin
+@RequestMapping(value = "/order/tb-order",method = RequestMethod.GET)
 public class TbOrderController {
     @Autowired
     TbOrderServiceImpl service ;
