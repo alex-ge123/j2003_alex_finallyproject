@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: alex-prodcuer-coursemanagement
+  cloud:
+    config:
+      discovery:
+        service-id: remoteconfig-service   #也可以用注册地址
+      profile: alex-coursemanagement
+
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://root:root@10.12.153.63:8761/eureka/, http://root:root@10.12.153.63:8762/eureka/
+
+
